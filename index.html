@@ -2,32 +2,24 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>CADASTRO DE FORNECEDORES - DOCE PIMENTA</title>
-    <link rel="stylesheet" href="estilo.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Cadastro de Fornecedores</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Cadastro de Fornecedores</h1>
+        <h1>Cadastro de Produtos</h1>
+        <form action="#" method="post">
+            <label for="codBarras">Nome do Fornecedor:</label>
+            <input type="text" id="codBarras" name="codBarras" required>
 
-        <div class="form-group">
-            <label for="nomeFornecedor">Nome do Fornecedor:</label>
-            <input type="text" id="nomeFornecedor" name="nomeFornecedor">
-        </div>
+            <label for="nomeProduto">Tipo de Produto:</label>
+            <input type="text" id="nomeProduto" name="nomeProduto" required>
 
-        <div class="form-group">
-            <label for="tipoProduto">Tipo de Produto:</label>
-            <input type="text" id="tipoProduto" name="tipoProduto">
-        </div>
-
-        <div class="form-group">
-            <label for="marcaProduto">Marca do Produto:</label>
+            <label for="marcaProduto">Marca do Produto</label>
             <input type="text" id="marcaProduto" name="marcaProduto">
-        </div>
 
-        <div class="form-group">
             <button type="submit">Próximo</button>
-        </div>
+        </form>
     </div>
 </body>
 </html>
